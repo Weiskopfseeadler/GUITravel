@@ -1,0 +1,63 @@
+﻿<UserControl x:Class="AB120_05_A3_Vorlage.HotelAdministration"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:self="clr-namespace:AB120_05_A3_Vorlage"
+             xmlns:local="clr-namespace:AB120_05_A3_Vorlage"
+             mc:Ignorable="d" 
+   d:DesignHeight="300" d:DesignWidth="300" Background="#FFBCBCBC">
+
+    <UserControl.Resources>
+        <self:DumiConverter x:Key="DumiConverter" />
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="33*"/>
+            <ColumnDefinition Width="32*"/>
+            <ColumnDefinition Width="35*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="61*"/>
+            <RowDefinition Height="239*"/>
+        </Grid.RowDefinitions>
+
+        <Button x:Name="New"  Margin="5,5,5,5" Click="New_Click"  Background="#00DDDDDD" BorderThickness="0"  >
+            <Image Source="/AB120_05_A3_Vorlage;component/Kunden/Add.jpg" Stretch="Uniform" Margin="0,0,0,0"  ></Image>
+        </Button>
+        <Button Name="Delete" Margin="5,5,5,5" Grid.Column="2" Click="Delete_Click" Background="#00DDDDDD" BorderThickness="0"  >
+            <Image Source="/AB120_05_A3_Vorlage;component/Kunden/Delete.jpg" Stretch="Uniform" Margin="0,0,0,0"  ></Image>
+        </Button>
+        <Button Name="Edit" Margin="5,5,5,5" Background="#00DDDDDD" BorderThickness="0" Grid.Column="1" Click="Edit_Click"  >
+            <Image Source="/AB120_05_A3_Vorlage;component/Kunden/download.png" Stretch="Uniform" Margin="0,0,0,0"  ></Image>
+        </Button>
+        <DockPanel Grid.ColumnSpan="3" Margin="0,0,0,0" LastChildFill="True" Grid.Row="1" Background="White">
+
+            <DataGrid CanUserResizeColumns="True" 
+          CanUserResizeRows="False" MinRowHeight="40" AutoGenerateColumns="False" x:Name="lb" Margin="0,0,0,0">
+                <DataGrid.Columns>
+                    <DataGridTemplateColumn x:Name="TemplatColumn" Header="Image" Width="*" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Image x:Name="image" Source="{Binding BitmapImage , Converter={StaticResource DumiConverter}}"  />
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTextColumn Binding="{Binding HotelID}" Header="HotelID"/>
+                    <DataGridTextColumn Binding="{Binding Name   }" Header="Name   "/>
+                    <DataGridTextColumn Binding="{Binding Ort    }" Header="Ort    "/>
+                    <DataGridTextColumn Binding="{Binding Land   }" Header="Land   "/>
+                    <DataGridTextColumn Binding="{Binding Sterne }" Header="Sterne "/>
+                    <DataGridTextColumn Binding="{Binding Manager}" Header="Manager"/>
+                    <DataGridTextColumn Binding="{Binding AnzahlZ}" Header="AnzahlZ"/>
+                    <DataGridTextColumn Binding="{Binding TagesPr}" Header="TagesPr"/>
+                    <DataGridTextColumn Binding="{Binding Telefon}" Header="Telefon"/>
+                    <DataGridTextColumn Binding="{Binding Email  }" Header="Email  "/>
+                    <DataGridTextColumn Binding="{Binding Web    }" Header="Web    "/>
+
+                </DataGrid.Columns>
+            </DataGrid>
+        </DockPanel>
+
+    </Grid>
+</UserControl>

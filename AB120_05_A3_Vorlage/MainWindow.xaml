@@ -1,0 +1,24 @@
+﻿<Window x:Class="AB120_05_A3_Vorlage.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AB120_05_A3_Vorlage"
+        mc:Ignorable="d"
+        Title="MainWindow" Background="#FFF31D1D" >
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300px"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0" Grid.Row="0" Width="300px" HorizontalAlignment="Left" Background="Coral">
+            <Button x:Name="KundenListe" Content="Kundenverwaltung" ContentStringFormat="" Click="KundenListe_Click" Height="31px" />
+            <Button Name="HotelAdministrationel" Height="31px" Content="Hotelverwaltung" Click="HotelAdministrationel_Click" />
+            <Button Name="CustomerAdministration" Height="31px" Content="Reisenverwaltung" Click="CustomerAdministration_Click" />
+            <Button Name="PromotionMode" Content="Promotion Mode" Height="31px" Click="PromotionMode_Click" />
+        </StackPanel>
+        <DockPanel x:Name="DP" Grid.Column="1" Margin="0,0,0,0"  LastChildFill="True" Background="#FF6CB6F7" />
+
+    </Grid>
+</Window>

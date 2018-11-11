@@ -1,0 +1,23 @@
+﻿<Window x:Class="AB120_05_A3_Vorlage.Reise.EditTravel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AB120_05_A3_Vorlage.Reise"
+        mc:Ignorable="d"    Height="329.598" Width="344.083" >
+    <Grid Margin="0,0,2,1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button Background="AliceBlue" Content="Save" Margin="251.236,229,10,18.598" Height="50" Click="Save" />
+        <Button Content="Abrechen" HorizontalAlignment="Left" Width="83.265" Margin="27.417,229,0,18.598" Height="50"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="11.563,10,0,0" VerticalAlignment="Top" Width="99.119" Height="25.96"/>
+        <Label Content="Vorname" HorizontalAlignment="Left" Margin="11.563,40.96,0,0" VerticalAlignment="Top" Width="75" Height="25.96"/>
+        <TextBox x:Name="tbName" HorizontalAlignment="Left" Height="23" Margin="110.682,14,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" GotMouseCapture="focus"/>
+        <TextBox x:Name="tblastName" HorizontalAlignment="Left" Height="23" Margin="110.682,43.92,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" GotMouseCapture="focus"/>
+    </Grid>
+</Window>
+            

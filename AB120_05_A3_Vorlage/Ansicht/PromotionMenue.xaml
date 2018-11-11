@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="AB120_05_A3_Vorlage.Ansicht.Menü"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AB120_05_A3_Vorlage.Ansicht"
+             mc:Ignorable="d" 
+              Background="#FF2D692D" d:DesignWidth="821.113" d:DesignHeight="401.597">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="139*"/>
+            <RowDefinition Height="146*"/>
+            <RowDefinition Height="44*"/>
+        </Grid.RowDefinitions>
+        <Label Content="GIUTravel" HorizontalAlignment="Left" Margin="43.616,5,0,0" VerticalAlignment="Top" Height="99.544" Width="380.5" FontSize="72" Grid.ColumnSpan="3" Grid.Column="2"/>
+        <TextBox x:Name="Serchfild" HorizontalAlignment="Left" Height="37.553" Margin="45.282,104.544,0,0" TextWrapping="Wrap" Text="Suche" VerticalAlignment="Top" Width="345.283" Grid.ColumnSpan="3" Grid.Column="2"/>
+        <Image  Source="pool-with-hottel.jpg" Margin="12,12,12,12" Grid.Row="1" Grid.Column="2"/>
+        <Image  Source="pool-with-hottel.jpg" Margin="12,12,12,12" Grid.Row="1" Grid.Column="1"/>
+        <Image  Source="pool-with-hottel.jpg" Margin="12,12,12,12" Grid.Row="1" Grid.Column="3"/>
+        <Image  Source="pool-with-hottel.jpg" Margin="12,12,12,12" Grid.Row="1" Grid.Column="5"/>
+        <Image  Source="pool-with-hottel.jpg" Margin="12,12,12,12" Grid.Row="1" Grid.Column="4"/>
+        <Button Content="Button" Grid.Column="5" HorizontalAlignment="Left" Margin="30.506,104.544,0,0" VerticalAlignment="Top" Width="53.491" Height="37.553" Click="Button_Click"/>
+        <Label Background="#FF2D692D" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="36.5,35,0,0" VerticalAlignment="Top" Height="10.71" Width="9.75"  MouseMove="Label_MouseMove"/>
+        <Label x:Name="red" Background="Red" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="57,35,0,0" VerticalAlignment="Top" Height="10.71" Width="9.75" MouseMove="red_MouseMove"/>
+        <Button x:Name="Close" Content="ChekPassWordForClosee" Grid.Column="1" HorizontalAlignment="Left" Margin="12,22.149,0,0" Grid.Row="2" VerticalAlignment="Top" Width="45.4" Height="21.56" Click="Close_Click" />
+
+    </Grid>
+</UserControl>

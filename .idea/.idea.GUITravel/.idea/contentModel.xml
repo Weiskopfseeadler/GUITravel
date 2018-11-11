@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\vmadmin\.Rider2018.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\vmadmin\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\vmadmin\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_GUITravel.694662411.00" t="ExcludeRecursive" />
+    <e p="C:\Users\vmadmin\Desktop\GUITravel" t="IncludeFlat">
+      <e p="AB120_05_A3_Vorlage" t="IncludeRecursive">
+        <e p="Ansicht" t="Include">
+          <e p="ChekPassWordForClose.cs" t="Include" />
+          <e p="ChekPassWordForClose.xaml" t="Include" />
+          <e p="pool-with-hottel.jpg" t="Include" />
+          <e p="Promotion.xaml" t="Include" />
+          <e p="Promotion.xaml.cs" t="Include" />
+          <e p="PromotionMenue.xaml" t="Include" />
+          <e p="PromotionMenue.xaml.cs" t="Include" />
+          <e p="Serching.xaml" t="Include" />
+          <e p="Serching.xaml.cs" t="Include" />
+        </e>
+        <e p="APP" t="Include">
+          <e p="Hotel.cs" t="Include" />
+          <e p="Kunde.cs" t="Include" />
+          <e p="Land.cs" t="Include" />
+          <e p="Reise.cs" t="Include" />
+          <e p="UML_Schicht_APP.cd" t="Include" />
+          <e p="Zuweisungen.cs" t="Include" />
+        </e>
+        <e p="App.config" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DB" t="Include">
+          <e p="DatenModell.Context.cs" t="Include" />
+          <e p="DatenModell.Context.tt" t="Include" />
+          <e p="DatenModell.cs" t="Include" />
+          <e p="DatenModell.Designer.cs" t="Include" />
+          <e p="DatenModell.edmx" t="Include" />
+          <e p="DatenModell.edmx.diagram" t="Include" />
+          <e p="DatenModell.tt" t="Include" />
+          <e p="Hotel.cs" t="Include" />
+          <e p="HotelBild.cs" t="Include" />
+          <e p="Kunde.cs" t="Include" />
+          <e p="Kunde_Reise.cs" t="Include" />
+          <e p="Land.cs" t="Include" />
+          <e p="Reise.cs" t="Include" />
+          <e p="Reise_Hotel.cs" t="Include" />
+        </e>
+        <e p="DumiConverter.cs" t="Include" />
+        <e p="GUITravel.csproj" t="IncludeRecursive" />
+        <e p="Hotel" t="Include">
+          <e p="EditHotels.xaml" t="Include" />
+          <e p="EditHotels.xaml.cs" t="Include" />
+          <e p="Hotelverwaltung.xaml" t="Include" />
+          <e p="Hotelverwaltung.xaml.cs" t="Include" />
+          <e p="NotFound.png" t="Include" />
+        </e>
+        <e p="Kunden" t="Include">
+          <e p="Add.jpg" t="Include" />
+          <e p="Creatclient.xaml" t="Include" />
+          <e p="Creatclient.xaml.cs" t="Include" />
+          <e p="Delete.jpg" t="Include" />
+          <e p="download.png" t="Include" />
+          <e p="KundenListe.xaml" t="Include" />
+          <e p="KundenListe.xaml.cs" t="Include" />
+        </e>
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="Reise" t="Include">
+          <e p="EditTravel.xaml" t="Include" />
+          <e p="EditTravel.xaml.cs" t="Include" />
+          <e p="TravelAdministration.xaml" t="Include" />
+          <e p="TravelAdministration.xaml.cs" t="Include" />
+        </e>
+        <e p="Reisen.xaml" t="Include" />
+        <e p="Reisen.xaml.cs" t="Include" />
+        <e p="Simple Styles.xaml" t="Include" />
+      </e>
+      <e p="GUITravel.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
